@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Tanagala Meghana — CSE (AI & ML) student at VIT-AP. Portfolio of machine learning, NLP, and software projects."
+    />
+    <title>Tanagala Meghana | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,650&family=Outfit:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="logo" href="#top">TM</a>
+        <nav class="nav" aria-label="Primary">
+          <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-list">
+            Menu
+          </button>
+          <ul id="nav-list" class="nav-list">
+            <li><a href="#about">About</a></li>
+            <li><a href="#now">Now</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <button class="theme-toggle" type="button" aria-label="Switch color theme">
+          Theme
+        </button>
+      </div>
+    </header>
+
+    <main id="main">
+      <section id="top" class="hero">
+        <div class="wrap hero-grid">
+          <div>
+            <p class="eyebrow" id="hero-eyebrow"></p>
+            <h1 id="hero-name"></h1>
+            <p class="lede" id="hero-tagline"></p>
+            <p class="hero-meta" id="hero-meta"></p>
+            <div class="hero-actions" id="hero-actions"></div>
+          </div>
+          <aside class="portrait-card" aria-label="Profile snapshot">
+            <img
+              class="profile-photo"
+              src="assets/images/profile.jpg"
+              alt="Tanagala Meghana"
+            />
+            <div class="portrait-mark">AI · ML</div>
+            <p class="portrait-status" id="hero-availability"></p>
+            <ul class="quick-links" id="quick-links"></ul>
+          </aside>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="wrap">
+          <h2>About</h2>
+          <p class="section-copy" id="about-copy"></p>
+        </div>
+      </section>
+
+      <section id="now" class="section section-alt">
+        <div class="wrap">
+          <h2>Now</h2>
+          <p class="hint">A living snapshot — update this as your year changes.</p>
+          <ul class="now-list" id="now-list"></ul>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="wrap">
+          <h2>Projects</h2>
+          <div class="card-grid" id="projects-grid"></div>
+        </div>
+      </section>
+
+      <section id="experience" class="section section-alt">
+        <div class="wrap">
+          <h2>Experience &amp; leadership</h2>
+          <div class="timeline" id="experience-list"></div>
+          <div id="internships-block" class="empty-block" hidden>
+            <h3>Internships</h3>
+            <p>
+              When you land an internship, add it in
+              <code>assets/js/profile.js</code> under <code>internships</code>.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section">
+        <div class="wrap">
+          <h2>Technical skills</h2>
+          <div class="skills-grid" id="skills-grid"></div>
+        </div>
+      </section>
+
+      <section id="education" class="section section-alt">
+        <div class="wrap two-col">
+          <div>
+            <h2>Education</h2>
+            <div class="timeline" id="education-list"></div>
+          </div>
+          <div>
+            <h2>Certifications</h2>
+            <ul class="cert-list" id="cert-list"></ul>
+            <h2 class="subhead">Activities</h2>
+            <ul class="plain-list" id="activity-list"></ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="wrap contact-panel">
+          <h2>Let’s work together</h2>
+          <p class="section-copy">
+            For internships, collaborations, or questions about my work, write to me.
+          </p>
+          <div class="contact-actions" id="contact-actions"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap footer-inner">
+        <p id="footer-copy"></p>
+        <p class="muted">Built to grow with a career — not just a semester.</p>
+      </div>
+    </footer>
+
+    <script src="assets/js/profile.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
